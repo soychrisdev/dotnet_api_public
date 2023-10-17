@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<appSettings>
+  <!--=====================-->
+  <!--SETTINGS DE ORACLE-->
+  
+  <!--DESA-->
+<add key="connCRM"   value="data source=DDSTG; user id=INTEGRACIONCRM; password=integracioncrm;Pooling=false" />
+<add key="connPlanificador"   value="data source=DDSTG; user id=siga; password=siga;" />
+<add key="connSecurity"       value="Data Source=DDSTG;User ID=security;Password=inacap69;"/> <!--requerida para dll de seguridad-->
+<add key="connBeneficiosEstudiantiles"   value="data source=DDSTG; user id=beneficios_estudiantiles; password=beneficios_estudiantiles;" />
+<!--DESA-->
+  <!--====================-->
+  <!--String de conexi�n a la DB-->
+  <add key="connSiriProd" value="Data Source=DSTG;User Id=siri;Password=1r1s-inaca;" />
+  <add key="connSiri"       value="Data Source=ddstg;User Id=siri;Password=siri;" />
+  <add key="connCobranza"       value="Data Source=ddstg;User Id=cobranzas;Password=cobra.,inacap;" />
+  <add key="connSiga"           value="Data Source=ddstg;User ID=siga;Password=siga;Pooling=false" />
+  <add key="connLaboral"        value="Data Source=ddstg;User ID=laboral;Password=laboralinacap;" />
+  <add key="connSigaPDF"        value="Data Source=ddstg;User ID=siga;Password=siga;Pooling=false" />
+  <add key="connString"         value="Data Source=ddstg;User ID=siga;Password=siga;Validate Connection=true;Connection Timeout=45;Incr Pool Size=25;Max Pool Size=500" />
+  <!--<add key="connSigaPDF" value="Data Source=ddstg;User ID=siga;Password=siga;Pooling=false" />-->
+  <add key="connSiga_msdaora" 	value="Provider=msdaora;Data Source=ddstg;User ID=siga;Password=siga;Pooling=false" />
+  <add key="connAdmPlan"        value="Data Source=ddstg;User ID=ADMPLAN;Password=PLANADM;Pooling=false" />
+  <add key="connSiec_bs"        value="Data Source=ddstg;User ID=siec_bs;Password=bs_siec;Pooling=false"/>
+  <add key="connSiec"           value="Data Source=ddstg;User ID=siec;Password=siec;Pooling=false"/>
+  <add key="connIntegracion"    value="Data Source=ddstg;User ID=integracion;Password=integra69;Pooling=false"/>
+  <add key="connEFacturas"      value="Data Source=ddstg;User ID=EFACTURAS;Password=efacturas;Pooling=false"/>
+  <!-- <add key="connSecurity"       value="Data Source=ddstg;User ID=security;Password=*****;Pooling=false"/> -->
+  <add key="connSecurity"       value="Data Source=ddstg;User ID=security;Password=inacap69;Pooling=false"/>
+  <add key="connApertura"       value="Data Source=ddstg;User ID=apertura_in;Password=apertura_in;"/>
+  <add key="connAdmPlanCDalc"   value="Data Source=ddstg;User ID=ADMPLAN;Password=PLANADM" />
+  <add key="oraFINZP"           value="data source=FINDES;user id=PSOFT;password=findes"/>
+  <add key="FINZP"              value="data source=FINDES.inacap.cl;user id=PSOFT;password=findes"/>
+  <add key="connCertificados"   value="Data Source=ddstg;User ID=certificados;Password=certifi.,inacap;Pooling=false"/>
+  <add key="connInterEmpresas"  value="Data Source=ddstg;User ID=InterEmpresas;Password=InterEmpresas;Pooling=false"/>
+  <add key="conexion"           value="data source=ddstg;user id=COMPETENCIAS;password=competencias"/>
+  <add key="connApodocente"     value="Data Source=ddstg;User ID=apodocente;Password=apodocente;Pooling=false"/>
+  <add key="connAGPA"           value="data source =ddstg; user id=gestion; password=gestion" />
+  <add key="connDocTecnica"     value="data source =ddstg; user id=DOCTECNICA; password=DOCTECNICA" />
+  <add key="connDocumentacionTecnica"           value="Data Source=ddstg;User ID=DOCTECNICA;Password=DOCTECNICA;Validate Connection=true;Connection Timeout=45;Incr Pool Size=25;Max Pool Size=500" />
+  <add key="oraDOTACION_HR"     value="data source=ddstg;user id=DOTACION_HR;password=DOTACION_HR;Pooling=false"/>
+  <add key="oraAPERTURA_PS"     value="Data Source=ddstg;User ID=APERTURA_PS;Password=apertura_ps;Pooling=false"/>
+  <add key="oraGestion"         value="data source=FINDES;user id=gestion;password=tionges69;Pooling=false"/>
+  <add key="connEdCapacitacion" value="provider=MSDAORA; data source=ddstg;user id=EDCAPACITACION;password=EDCAPACITACION" />
+  <add key="connPlanificador"   value="data source=ddstg; user id=siga; password=siga;" />
+  <add key="connSolicitudesEfc" value="Data Source=ddstg;User ID=siga;Password=siga;Pooling=false" />
+  <add key="connCaja" value="data source=ddstg;user id=caja;password=caja"/>
+
+  <add key="connSGPI"   value="data source=ddstg; user id=SGPI; password=SGPI;" />
+
+  <add key="ADUser" value="m_ortega" />
+  <add key="ADPassword" value="mortega123" />
+  <add key="key_set" value="inacap" />
+</appSettings>

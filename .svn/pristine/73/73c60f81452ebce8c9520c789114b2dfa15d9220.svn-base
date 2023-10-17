@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Conexiones>
+  <Conexion sistema="egretit" 	          dsn="desa" usuario="egretit" 	        clave="titulaedesa" />
+	<Conexion sistema="sigad" 		          dsn="desa" usuario="certificados" 	  clave="certifi.,inacap" />
+	<Conexion sistema="siga3" 		            dsn="desa" usuario="siga3" 			      clave="siga3" />
+	<Conexion sistema="siga" 		            dsn="desa" usuario="siga" 			      clave="siga" />
+	<Conexion sistema="admencuestas" 		    dsn="desa" usuario="admencuestas" 	  clave="admencuestas" />
+	<Conexion sistema="siga2" 		          dsn="desa" usuario="siga" 			      clave="siga" />
+	<Conexion sistema="certificados" 	      dsn="desa" usuario="certificados" 	  clave="certifi.,inacap" />
+	<Conexion sistema="siec" 		            dsn="desa" usuario="siec" 			      clave="siec" />
+	<Conexion sistema="consweb" 		        dsn="desa" usuario="consweb" 		      clave="webcons" />
+	<Conexion sistema="cobranzas" 		      dsn="desa" usuario="cobranzas" 	  	  clave="cobra.,inacap" />
+	<Conexion sistema="intranetacad" 	      dsn="desa" usuario="intranetacad" 	  clave="intranetacad" />
+	<Conexion sistema="apertura_ps" 	      dsn="desa" usuario="apertura_ps" 	    clave="apertura_ps" />
+  <Conexion sistema="acreditacion" 	      dsn="desa" usuario="acreditacion" 	  clave="a.acredita.inaca9" />
+  <Conexion sistema="bsugerencia" 	      dsn="desa" usuario="bsugerencia" 	    clave="buzons" />
+  <Conexion sistema="becasolidaria" 	    dsn="desa" usuario="becasolidaria" 	  clave="becasolidaria" />
+	<Conexion sistema="contingencia"        dsn="desa" usuario="contingencia"     clave="contingencia" />
+	<Conexion sistema="apexa" 		          dsn="desa" usuario="apexa" 			      clave="exapa" />
+	<Conexion sistema="edu_distancia" 		  dsn="desa" usuario="edu_distancia" 	  clave="edu_distancia" />
+	<Conexion sistema="apodocente"          dsn="desa" usuario="APODOCENTE"       clave="APODOCENTE" directorio_foto="\sae\temps\" usuario_planes="ADMPLAN" usuario_siga="SIGA" usuario_security="SECURITY" ip_correo="" separador="." />
+  <Conexion sistema="caja"                dsn="desa" usuario="caja"             clave="caja" />
+  <Conexion sistema="cajaunica"           dsn="desa" usuario="caja"             clave="caja" />
+  <Conexion sistema="caja_unica"          dsn="desa" usuario="caja"             clave="caja" />
+  <Conexion sistema="apertura_ps"         dsn="desa" usuario="apertura_ps"      clave="apertura_ps" />
+  <Conexion sistema="bech"                dsn="desa" usuario="bech"             clave="bech" />
+  <Conexion sistema="control_proceso"     dsn="desa" usuario="CONTROLPROCESOS"  clave="cntrlproc" /> 
+  <Conexion sistema="controlproceso"      dsn="desa" usuario="CONTROLPROCESOS"  clave="cntrlproc" />
+  <Conexion sistema="ctpe"                dsn="desa" usuario="ctpe"             clave="cntralinacap" />
+  <Conexion sistema="gst"                 dsn="desa" usuario="gst"              clave="gst" />
+  <Conexion sistema="edocente"            dsn="desa" usuario="edocente"         clave="edocente" />
+  <Conexion sistema="creditos"            dsn="desa" usuario="siga"             clave="siga" />  
+  <Conexion sistema="gestion"             dsn="desa" usuario="gestion"          clave="gestion" />
+  <Conexion sistema="laboral"             dsn="desa" usuario="laboral"          clave="laboralinacap" />
+  <Conexion sistema="dstg"                dsn="desa" usuario="gestion"          clave="gestion" />
+  <Conexion sistema="consultaPostulantes" dsn="gst_mcastaneda.inacap.cl"        usuario="sa"      clave="4l3x4ndr4" />
+  <Conexion sistema="contingenciaFUP"     dsn="gst_mcastaneda.inacap.cl"        usuario="nodos02" clave="123458" />
+  <Conexion sistema="contingenciaFUP2"    dsn="gst_mcastaneda.inacap.cl"        usuario="sa"      clave="4l3x4ndr4" />
+  <Conexion sistema="contingenciaSQLzz"     dsn="gst_mcastaneda.inacap.cl"        usuario="nodos02" clave="123458" />
+  <Conexion sistema="contingenciaSQL"     dsn="gst_mcastaneda.inacap.cl"        usuario="sa" clave="4l3x4ndr4" />
+  <Conexion sistema="contingenciaSQLx"     dsn="gst-ahumada.inacap.cl"        usuario="contingencia" clave="contingencia" />
+  <Conexion sistema="contingenciaSQLz"     dsn="BDC_UPR.inacap.cl"        usuario="contingencia" clave="con.upr" />
+  <Conexion sistema="contingenciaSQL2"    dsn="gst_mcastaneda.inacap.cl"        usuario="sa"      clave="4l3x4ndr4" />
+</Conexiones>
+
+
+

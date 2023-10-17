@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Para obtener más información sobre cómo configurar la aplicación ASP.NET, visite
+  https://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <appSettings file="../acceso/conexionNet.config">
+    <add key="AKORACLE" value="connCRM" />
+    <!--PARAMETROS-->
+    <add key="TOKEN_EXPIRE_MINUTES" value="120" />
+    <add key="NAMEAPP" value="SF_Casos" />
+    <add key="DATOSAPI" value="FORMULARIO_DATOS_API" />
+    <add key="DATOSQUERY" value="QUERYS_APP" />
+    <!--PARAMETROS-->
+    <add key="APLI_CAPLICACION" value="CASOSSF" />
+    <!--ALUMNO-->
+    <!--<add key="RUT_USUARIO" value="20509311" />-->
+    <!--<add key="RUT_USUARIO" value="20141369" />-->
+    <!--<add key="RUT_USUARIO" value="18082631" />-->
+    <add key="webpages:Version" value="3.0.0.0" />
+    <add key="webpages:Enabled" value="false" />
+    <add key="PreserveLoginUrl" value="true" />
+    <add key="ClientValidationEnabled" value="true" />
+    <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+  </appSettings>
+  <system.web>
+    <compilation targetFramework="4.6">
+      <!--DLL SEGGURIDAD-->
+      <assemblies>
+        <!--<add assembly="Inacap.Security.Access, Version=1.0.0.0, Culture=neutral, PublicKeyToken=003527B6B4EFC758" />-->
+      </assemblies>
+      <!--DLL SEGGURIDAD-->
+    </compilation>
+    <customErrors mode="Off" />
+    <httpRuntime targetFramework="4.6" />
+    <pages>
+      <namespaces>
+        <add namespace="System.Web.Helpers" />
+        <add namespace="System.Web.Mvc" />
+        <add namespace="System.Web.Mvc.Ajax" />
+        <add namespace="System.Web.Mvc.Html" />
+        <add namespace="System.Web.Routing" />
+        <add namespace="System.Web.WebPages" />
+      </namespaces>
+    </pages>
+  </system.web>
+  <system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <add name="Access-Control-Allow-Origin" value="*" />
+        <add name="Access-Control-Allow-Headers" value="*" />
+        <add name="Access-Control-Allow-Methods" value="*" />
+      </customHeaders>
+    </httpProtocol>
+    <!--<handlers>-->
+    <!--DLL SEGGURIDAD-->
+    <modules>
+      <!--<add name="ModuleHttpSecurity" type="Inacap.Security.Access.ModuleHttpSecurity" />-->
+    </modules>
+    <!--DLL SEGGURIDAD-->
+    <validation validateIntegratedModeConfiguration="false" />
+    <handlers>
+      <remove name="ExtensionlessUrlHandler-Integrated-4.0" />
+      <remove name="OPTIONSVerbHandler" />
+      <remove name="TRACEVerbHandler" />
+      <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
+    </handlers>
+    <security>
+      <requestFiltering>
+        <requestLimits maxAllowedContentLength="904857600" />
+      </requestFiltering>
+    </security>
+  </system.webServer>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" culture="neutral" publicKeyToken="30ad4fe6b2a6aeed" />
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Helpers" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-5.2.0.0" newVersion="5.2.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Optimization" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="1.1.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.WebPages" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-1.6.5135.21930" newVersion="1.6.5135.21930" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:1659;1699;1701" />
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" />
+    </compilers>
+  </system.codedom>
+</configuration>
+<!--ProjectGuid: A83F9924-CA6C-4235-9A29-D2F0DF97EB49-->

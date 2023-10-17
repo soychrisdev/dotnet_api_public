@@ -1,0 +1,58 @@
+﻿@using SF_Form_CEDEM.Controllers.Api;
+@{
+    Layout = null;
+    var data = new BaseController();
+    var baseUrl = data.getUrl(1);
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Centro de Atención</title>
+    @*<base href="/">*@
+    @*<base href="">*@
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://www.inacap.cl/web/template-aplicaciones/img/favicon.ico" />
+    <link rel="stylesheet" href="https://www.inacap.cl/web/template-aplicaciones/css/mdb.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics GST -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2S6S5E0W5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-W2S6S5E0W5");
+    </script>
+    <script type="module" crossorigin src="~/App/assets/index-ddb90135.js"></script>
+    <link rel="stylesheet" href="~/App/assets/index-74ed7051.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        var config = {
+           baseUrl: '@Html.Raw(baseUrl)',
+        }
+    </script>
+
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/chosen.jquery.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="https://www.inacap.cl/web/template-aplicaciones/js/datatables.min.js"></script>
+
+</body>
+</html>
+
